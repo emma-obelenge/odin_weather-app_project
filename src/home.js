@@ -37,7 +37,7 @@ export default function loadHome() {
   `;
 
   content.appendChild(section);
-  content.appendChild(imageContainer);
+  document.querySelector("body").appendChild(imageContainer);
   activateCitySuggest();
   activateGetWeather();
 }
